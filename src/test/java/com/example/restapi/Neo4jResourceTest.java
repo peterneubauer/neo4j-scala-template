@@ -21,9 +21,9 @@ import org.codehaus.jettison.json.JSONObject;
  * http://lampsvn.epfl.ch/trac/scala/ticket/1539
  * If you enjoy programming languages and compilers, why not have a go at fixing it?
  */
-public class NeoResourceTest extends JerseyTest {
+public class Neo4jResourceTest extends JerseyTest {
 
-    public NeoResourceTest() throws Exception {
+    public Neo4jResourceTest() throws Exception {
         super("com.example.restapi");
     }
 
